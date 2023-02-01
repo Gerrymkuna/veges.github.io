@@ -1,0 +1,54 @@
+/* navbar style*/
+
+body {
+  font-family: "calibri";
+}
+nav {
+  background: #bdb76b;
+  height: 80px;
+  width: 100%;
+}
+
+/* contact form style*/
+
+input[type="text"] select,
+textarea {
+  width: 100%;
+  padding: 12 px;
+  border: 1 px solid #ccc; /*gray border*/
+  border-radius: 4px; /*rounded border*/
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* styling the submit button*/
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* when moving the mouse over the submit button, add a darker green color */
+input[type="submit"] :hover {
+  background-color: #45a049;
+}
+
+/* background color for padding*/
+.middle-container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Sacramento", "cursive";
+  line-height: 2;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
